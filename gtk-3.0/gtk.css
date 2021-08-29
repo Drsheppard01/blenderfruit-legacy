@@ -5251,13 +5251,13 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd.placessidebar {
   background-color: transparent;                                                            
-  border-radius: 18px;                                                                                                                                         
+  border-radius: 18 18 0 0px;                                                                                                                                         
   color: rgba(255, 255, 255, 0.7);                                                                                           
 }
 
 .nautilus-window.background.csd.unified placessidebar.sidebar {
   background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 18px;
+  border-radius: 18 18 0 0px;
 }
 
 .nautilus-window.background.csd placessidebar.sidebar, .nautilus-window.background.csd placessidebar.sidebar > viewport.frame > list > separator {
@@ -5268,7 +5268,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd .nautilus-list-view {
   background-color: transparent;
-  border-radius: 18px;
+  border-radius: 0px;
 }
 
 .nautilus-window.background.csd .nautilus-list-view treeview.view:not(:hover):not(:active):not(:selected), .nautilus-window.background.csd .nautilus-list-view window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(:hover):not(:active):not(:selected):not(.progressbar):not(.trough), window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow .nautilus-window.background.csd .nautilus-list-view treeview.view:not(:hover):not(:active):not(:selected):not(.progressbar):not(.trough), .nautilus-window.background.csd .nautilus-list-view filechooser stack.view scrolledwindow treeview.view:not(:hover):not(:active):not(:selected), filechooser stack.view scrolledwindow .nautilus-window.background.csd .nautilus-list-view treeview.view:not(:hover):not(:active):not(:selected) {
