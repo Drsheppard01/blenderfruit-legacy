@@ -3248,7 +3248,7 @@ notebook:focus tab:checked {
 notebook > header {
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.08);
-  background-color: #dedede
+  background-color:#dedede;
   background-clip: border-box;
 }
 
@@ -8065,22 +8065,22 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .top .budgie-panel {
-  border-radius: 9999px;
+  border-radius: 25px;
   margin: 4px 6px;
 }
 
 .bottom .budgie-panel {
-  border-radius: 9999px;
+  border-radius: 25px;
   margin: 4px 6px;
 }
 
 .left .budgie-panel {
-  border-radius: 9999px;
+  border-radius: 25px;
   margin: 4px 6px;
 }
 
 .right .budgie-panel {
-  border-radius: 9999px;
+  border-radius: 25px;
   margin: 4px 6px;
 }
 
@@ -8106,7 +8106,7 @@ MsdOsdWindow.background.osd .progressbar {
 .budgie-panel button.raven-trigger {
   color: rgba(255, 255, 255, 0.7);
   margin: 3px 0;
-  border-radius: 9999px;
+  border-radius: 20px;
   padding: 0 4px;
 }
 
@@ -8432,10 +8432,11 @@ frame.raven-frame > border {
   border-style: solid none;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.12);
+  background-color: #FFFFFF;
 }
 
 .raven .raven-background > overlay > widget > image {
-  color: rgba(54, 54, 54, 0.12);
+  color: rgba(0, 0, 0, 0.12);
 }
 
 .raven .raven-background grid > label:first-child {
@@ -8458,7 +8459,7 @@ frame.raven-frame > border {
 
 .raven .powerstrip button {
   margin: 2px 0 1px;
-  padding: 24px;
+  padding: 12px;
 }
 
 .raven .option-subtitle {
