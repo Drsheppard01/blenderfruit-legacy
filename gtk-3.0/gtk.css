@@ -5229,7 +5229,7 @@ popover.emoji-completion .emoji:hover {
 }
 
 .nautilus-window.background.csd {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 18px;
 }
 
@@ -5252,11 +5252,11 @@ popover.emoji-completion .emoji:hover {
 .nautilus-window.background.csd.placessidebar {
   background-color: transparent;                                                            
   border-radius: 18 18 0 0px;                                                                                                                                         
-  color: rgba(255, 255, 255, 0.7);                                                                                           
+  color: rgba(255, 255, 255, 1);                                                                                           
 }
 
 .nautilus-window.background.csd.unified placessidebar.sidebar {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 18 18 0 0px;
 }
 
