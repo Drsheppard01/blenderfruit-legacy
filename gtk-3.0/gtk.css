@@ -2490,7 +2490,7 @@ searchbar > revealer > box {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), color 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 18px 18px 0 0;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   color: white;
 }
 
@@ -2499,7 +2499,7 @@ searchbar > revealer > box {
 }
 
 .titlebar:backdrop {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -2637,7 +2637,7 @@ searchbar > revealer > box {
 }
 
 .titlebar.default-decoration {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   min-height: 22px;
   padding: 4px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
@@ -2645,7 +2645,7 @@ searchbar > revealer > box {
 }
 
 .titlebar.default-decoration:backdrop {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
 }
 
 .tiled .titlebar.default-decoration, .maximized .titlebar.default-decoration, .fullscreen .titlebar.default-decoration {
@@ -2679,7 +2679,7 @@ headerbar:not(.titlebar) {
 }
 
 box.vertical headerbar {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
 }
 
 headerbar entry,
@@ -2915,13 +2915,13 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0;
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   color: white;
 }
 
 menubar:backdrop,
 .menubar:backdrop {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -5055,11 +5055,11 @@ messagedialog.csd decoration {
   border-radius: 0;
   box-shadow: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
 }
 
 .solid-csd decoration:backdrop {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
 }
 
 .monospace {
@@ -5224,10 +5224,6 @@ popover.emoji-completion .emoji:hover {
  * Nautilus *
  ************/
 
- .nautilus-window.background.csd.unified headerbar {
-  box-shadow: none;
-}
-
 .nautilus-window.background.csd {
   background-color: #0F0F0F;
   border-radius: 0 0 18px 18px;
@@ -5248,97 +5244,6 @@ popover.emoji-completion .emoji:hover {
   background-color: transparent;
   border-radius: 18px;
   color: rgba(255, 255, 255, 0.7);
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame {
-  margin: 8px 0 12px 12px;
-  border-radius: 12px;
-  background-color: transparent;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list {
-  padding: 12px 0 12px 0;
-  background: none;
-  border-radius: 12px;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable {
-  border-radius: 0;
-  margin: -8px 0 -8px 0;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:focus, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:active {
-  background-image: none;
-  box-shadow: none;
-  animation: none;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label.sidebar-label {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image.sidebar-icon {
-  padding-right: 8px;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label.sidebar-label {
-  color: inherit;
-  min-height: 54px;
-  padding: 0 0 0 4px;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable.sidebar-placeholder-row {
-  background-color: transparent;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) {
-  border-radius: 9999px 0 0 9999px;
-  background-color: rgba(255, 112, 67, 0.1);
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active), .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:drop(active) label.sidebar-label {
-  color: #FF7043;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:hover label.sidebar-label {
-  color: #1A73E8;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected {
-  background-color: transparent;
-  font-weight: 700;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected image.sidebar-icon {
-  color: #1A73E8;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected label.sidebar-label {
-  color: #1A73E8;
-  background-color: #FFFFFF;
-  box-shadow: 4px 0 #FFFFFF;
-  padding: 0 0 0 14px;
-  border-image-width: 10px 10px 10px 18px;
-  border-image-slice: 10 10 10 18;
-  border-image-repeat: stretch;
-  border-image-source: -gtk-scaled(url("assets/row-selected-blackness.png"), url("assets/row-selected-blackness@2.png"));
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected revealer.sidebar-revealer {
-  padding-right: 0;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:selected button.sidebar-button {
-  margin-right: 8px;
-  margin-left: -32px;
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable:disabled label.sidebar-label {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.nautilus-window.background.csd placessidebar > viewport.frame > list > separator {
-  background: none;
 }
 
 .nautilus-window.background.csd placessidebar scrollbar {
@@ -5463,7 +5368,7 @@ popover.emoji-completion .emoji:hover {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.caja-desktop.caja-canvas-item, .nemo-desktop.nemo-canvas-item,
+ .nemo-desktop.nemo-canvas-item, .caja-desktop.caja-canvas-item,
 .nautilus-desktop.nautilus-canvas-item {
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
@@ -5635,6 +5540,7 @@ dialog.background > box.dialog-vbox.vertical > grid.horizontal > box.horizontal:
 .nautilus-window paned > separator {
   background-color: #FAFAFA;
 }
+
 /*********
  * gedit *
  *********/
@@ -6856,14 +6762,14 @@ window#GearyMainWindow.background.csd stack#conversation_viewer .geary-composer-
 
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > separator.sidebar,
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > leaflet > separator.sidebar {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12);
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), color 75ms cubic-bezier(0, 0, 0.2, 1), box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
 }
 
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > separator.sidebar:backdrop,
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > leaflet > separator.sidebar:backdrop {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
 }
 
 .geary-main-window > deck > overlay > .geary-main-layout > leaflet > leaflet > box.vertical + separator.sidebar {
@@ -7365,12 +7271,12 @@ UnityDecoration .top {
   border-style: none;
   border-radius: 18px 18px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   color: white;
 }
 
 UnityDecoration .top:backdrop {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -8549,7 +8455,7 @@ frame.raven-frame > border {
 }
 
 .raven .raven-background list {
-  color: #1C1C1C;
+  color: #0F0F0F;
   background-color: white;
 }
 
@@ -8924,7 +8830,7 @@ window.background.csd.thunar > grid.horizontal > paned.horizontal > scrolledwind
  * Nemo *
  ********/
 .nemo-window .primary-toolbar {
-  background-color: #1C1C1C;
+  background-color: #0F0F0F;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -9048,8 +8954,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_title white;
 @define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
-@define-color wm_bg #1C1C1C;
-@define-color wm_unfocused_bg #1C1C1C;
+@define-color wm_bg #0F0F0F;
+@define-color wm_unfocused_bg #0F0F0F;
 /*
 FIXME this is really an API */
 @define-color content_view_bg #FFFFFF;
