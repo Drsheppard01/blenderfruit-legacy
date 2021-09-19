@@ -1437,9 +1437,7 @@ label:disabled {
   color: rgba(0, 0, 0, 0.38);
 }
 
-headerbar label:disabled,
-tab label:disabled,
-button label:disabled {
+headerbar label:disabled, tab label:disabled, button label:disabled {
   color: inherit;
 }
 
@@ -1492,12 +1490,67 @@ spinner:checked:disabled {
   opacity: 0.5;
 }
 
+/*********************
+* General Typography * 
+*********************/
+.large-title {
+  font-weight: 300;
+  font-size: 24pt;
+}
+
+.title-1,
+.h1 {
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.title-2,
+.h2 {
+  font-weight: 800;
+  font-size: 15pt;
+}
+
+.title-3,
+.h3 {
+  font-weight: 700;
+  font-size: 15pt;
+}
+
+.title-4,
+.h4 {
+  font-weight: 700;
+  font-size: 13pt;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 11pt;
+}
+
+.body {
+  font-weight: 400;
+  font-size: 11pt;
+}
+
+.caption-heading {
+  font-weight: 700;
+  font-size: 9pt;
+}
+
+.caption {
+  font-weight: 400;
+  font-size: 9pt;
+}
+
+.category-label {
+  color: rgba(41, 41, 42, 0.8);
+  font-weight: 700;
+}
+
 /****************
  * Text Entries *
  ****************/
-spinbutton.vertical,
-spinbutton:not(.vertical),
-entry {
+spinbutton.vertical, spinbutton:not(.vertical), entry {
   min-height: 36px;
   padding: 0 8px;
   border-radius: 12px;
@@ -1508,23 +1561,17 @@ entry {
   color: rgba(0, 0, 0, 0.87);
 }
 
-spinbutton.vertical:focus,
-spinbutton:focus:not(.vertical),
-entry:focus {
+spinbutton.vertical:focus, spinbutton:focus:not(.vertical), entry:focus {
   background-color: rgba(0, 0, 0, 0.04);
   box-shadow: inset 0 0 0 2px #1A73E8;
 }
 
-spinbutton.vertical:drop(active),
-spinbutton:drop(active):not(.vertical),
-entry:drop(active) {
+spinbutton.vertical:drop(active), spinbutton:drop(active):not(.vertical), entry:drop(active) {
   background-color: alpha(currentColor, 0.08);
   box-shadow: inset 0 0 0 2px alpha(currentColor, 0.08);
 }
 
-spinbutton.vertical:disabled,
-spinbutton:disabled:not(.vertical),
-entry:disabled {
+spinbutton.vertical:disabled, spinbutton:disabled:not(.vertical), entry:disabled {
   box-shadow: inset 0 0 0 2px transparent;
   background-color: rgba(0, 0, 0, 0.04);
   color: rgba(0, 0, 0, 0.38);
@@ -4245,10 +4292,8 @@ switch:checked slider {
 /*************************
  * Check and Radio items *
  *************************/
-.view.content-view.check:not(list),
-window#gnome-system-monitor.background.csd>box.vertical>stack>box.vertical>scrolledwindow treeview.content-view.check.view:not(list):not(.progressbar):not(.trough),
-filechooser stack.view scrolledwindow treeview.content-view.check.view:not(list),
-filechooser stack.view window#gnome-system-monitor.background.csd>box.vertical>stack>box.vertical>scrolledwindow treeview.check.view:not(list):not(.progressbar):not(.trough),
+.view.content-view.check:not(list), window#gnome-system-monitor.background.csd>box.vertical>stack>box.vertical>scrolledwindow treeview.content-view.check.view:not(list):not(.progressbar):not(.trough),
+filechooser stack.view scrolledwindow treeview.content-view.check.view:not(list), filechooser stack.view window#gnome-system-monitor.background.csd>box.vertical>stack>box.vertical>scrolledwindow treeview.check.view:not(list):not(.progressbar):not(.trough),
 .content-view .tile check:not(list) {
   min-height: 40px;
   min-width: 40px;
@@ -6190,14 +6235,11 @@ window#gnome-system-monitor.background.csd>box.vertical>stack>box.vertical>scrol
   margin: 4px;
 }
 
-.nautilus-canvas-item.dim-label,
-.nautilus-list-dim-label {
+.nautilus-canvas-item.dim-label, .nautilus-list-dim-label {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.nemo-desktop.nemo-canvas-item,
-.caja-desktop.caja-canvas-item,
-.nautilus-desktop.nautilus-canvas-item {
+.nemo-desktop.nemo-canvas-item, .caja-desktop.caja-canvas-item, .nautilus-desktop.nautilus-canvas-item {
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
 }
@@ -6346,15 +6388,15 @@ dialog.background>box.dialog-vbox.vertical>grid.horizontal>box.horizontal:last-c
   padding: 3px;
 }
 
-.nautilus-window>popover.menu:not(:last-child)>stack>box>box>box {
+.nautilus-window>popover.menu:not(:last-child) > stack > box > box > box {
   margin-top: -6px;
 }
 
-.nautilus-window>popover.menu:not(:last-child)>stack>box>box>box>box {
+.nautilus-window>popover.menu:not(:last-child) > stack > box > box > box > box {
   margin-bottom: -6px;
 }
 
-.nautilus-window>popover.menu:not(:last-child)>stack>box>box>box>box.linked {
+.nautilus-window>popover.menu:not(:last-child) > stack > box > box > box > box.linked {
   margin-top: 1px;
 }
 
@@ -6371,14 +6413,14 @@ dialog.background>box.dialog-vbox.vertical>grid.horizontal>box.horizontal:last-c
   color: rgba(0, 0, 0, 0.6);
 }
 
-.nautilus-window paned>separator {
+.nautilus-window paned > separator {
   background-color: #FAFAFA;
 }
 
 /*********
  * gedit *
  *********/
-window.org-gnome-gedit>paned.titlebar>separator {
+window.org-gnome-gedit > paned.titlebar > separator {
   background-color: transparent;
 }
 
