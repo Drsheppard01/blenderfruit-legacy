@@ -4853,6 +4853,7 @@ scale.color.vertical:dir(rtl) slider {
 progressbar {
   color: rgba(0, 0, 0, 0.6);
   font-size: smaller;
+  font-feature-settings: "tnum";
 }
 
 progressbar.horizontal trough,
