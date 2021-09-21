@@ -3195,7 +3195,6 @@ headerbar button:backdrop:checked:disabled:not(.suggested-action):not(.destructi
 }
 
 .titlebar .selection-mode {
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2);
   background-color: #1A73E8;
 }
 
