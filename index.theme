@@ -5,8 +5,8 @@ Comment=An Materia Gtk+ theme based on Elegant Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Orchis
-MetacityTheme=Orchis
+GtkTheme=Blenderfruit
+MetacityTheme=Blenderfruit
 IconTheme=Tela-circle-blue
 CursorTheme=Bibata-Modern-Classic
 ButtonLayout=close,minimize,maximize:menu
