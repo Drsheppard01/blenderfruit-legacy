@@ -6740,7 +6740,7 @@ box.horizontal>stack.background>box.vertical>scrolledwindow>viewport.frame list:
 }
 
 .tweak-categories {
-  background-image: image(#FAFAFA);
+  background-color: transparent;
 }
 
 .csd .tweak-categories {
